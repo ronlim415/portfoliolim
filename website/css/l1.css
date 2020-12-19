@@ -1,0 +1,100 @@
+.container5 {
+    border: 15px solid #000000;
+    margin-left: 1130px;
+    margin-top: 50px;
+    position: absolute;
+    width: 550px;
+    height: 550px;
+    background-color: #09ced4;
+  }
+  .bigcircle{
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 18px;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    border: 15px solid #000000;
+    background: #ce8c11;
+  }
+  .rcircle{
+    position: absolute;
+    margin-top: 120px;
+    margin-left: 245px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 15px solid #000000;
+    background: #f1c604;
+  }
+  .lcircle{
+    position: absolute;
+    margin-top: 120px;
+    margin-left: 20px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 15px solid #000000;
+    background: #f1c604;
+  }
+  .halfcircle1{
+    position: absolute;
+    background-color: #000000;
+    margin-top: 70px;
+    margin-left: 25px;
+    height: 80px;
+    width: 150px;
+    border-radius: 125px 125px 0 0;
+    transform: rotate(150deg);
+  }
+  .halfcircle2{
+    position: absolute;
+    background-color: #000000;
+    margin-top: 70px;
+    margin-left: -5px;
+    height: 80px;
+    width: 150px;
+    border-radius: 125px 125px 0 0;
+    transform: rotate(210deg);
+  }
+  .rbrow{
+    position: absolute;
+    margin-top: -90px;
+    margin-left: 147px;
+    width: 20px;
+    height: 130px;
+    border-radius: 25px;
+    background-color: #000000;
+    transform: rotate(75deg);
+  }
+  .lbrow{
+    position: absolute;
+    margin-top: -85px;
+    margin-left: -20px;
+    width: 20px;
+    height: 130px;
+    border-radius: 25px;
+    background-color: #000000;
+    transform: rotate(105deg);
+  }
+  .beak{
+    position: absolute;
+    margin-top: 145px;
+    margin-left: 147px;
+    border-radius: 25px;
+    background-color: #000000;
+    width: 100px;
+    height: 100px;
+    transform: rotate(133deg);
+  }
+  .bgc{
+    position: absolute;
+    margin-top: 17px;
+    margin-left: 10px;
+    width: 450px;
+    height: 450px;
+    border-radius: 50%;
+    background: #e2a636;
+    transform: skewX(2deg);
+  }
+  

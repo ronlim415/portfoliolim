@@ -1,0 +1,539 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+}
+#section1{
+    height: 885px;
+    display: inline-block;
+    width:100%;
+    overflow: hidden;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #0782af, #42c9fa);
+    background-size: 400% 400%;
+    position: relative;
+    animation: change 10s ease-in-out infinite;
+}
+.container1{
+    width: 100px;
+    height: 100px;
+    background: transparent;
+    margin-top: 5px;
+    margin-left: 685px;
+    position: absolute;
+    border: 5px double #ffffff;
+    border-radius: 50%;
+  }
+#Footer{
+    background: #262626;
+    color: #ffffff;
+    text-align: center;
+    padding: 80px;
+    margin-top: -4px;
+  }
+.container{
+    width: 80%;
+    height: 120px;
+    margin: auto;
+    overflow: hidden;
+  }
+#mainHeader{
+    background: #262626;
+  }
+.contain{
+    height:70px ;
+    width:70px ;
+    background: transparent;
+    position: absolute;
+    margin-left: 1500px;
+    margin-top: 0px;
+    animation-name: bee;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+  }
+  @keyframes bee {
+    0% {
+      margin-left: 1500px;
+      margin-top: 15px;
+    }
+    25% {
+      margin-left: 1400px;
+      margin-top: 8px;
+    }
+    50% {
+      margin-left: 1300px;
+      margin-top: 15px;
+    }
+    75% {
+      margin-left: 1100px;
+      margin-top: 8px;
+    }
+    100% {
+      margin-left: 1000px;
+      margin-top: 5px;
+    }
+  }
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+  }
+  .fa:hover {
+    opacity: 0.7;
+  }
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+    transform: scale(0.8);
+  }
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+    transform: scale(0.8);
+  }
+  .fa-instagram {
+    background: #125688;
+    color: white;
+      transform: scale(0.8);
+  }
+.contain2{
+    height:70px ;
+    width:70px ;
+    background: transparent;
+    position: absolute;
+    margin-left: 1750px;
+    margin-top: -100px;
+    animation-name: bee2;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+  }
+@keyframes bee2 {
+    0% {
+      margin-left: 1500px;
+      margin-top: -100px;
+    }
+    25% {
+      margin-left: 1400px;
+      margin-top: -50px;
+    }
+    50% {
+      margin-left: 1300px;
+      margin-top: -50px;
+    }
+    75% {
+      margin-left: 1200px;
+      margin-top: -80px;
+    }
+    100% {
+      margin-left: 1100px;
+      margin-top: -60px;
+    }
+}
+.contain1{
+  height:250px ;
+  width:250px ;
+  background: transparent;
+  margin-top: -15px;
+  margin-left: 180px;
+  position: absolute;
+}
+.contain3{
+  height:250px ;
+  width:250px ;
+  background: transparent;
+  margin-top: -205px;
+  margin-left: 75px;
+  position: absolute;
+  animation-name: cloud1;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+@keyframes cloud1 {
+  0% {
+    margin-left:75px;
+    margin-top: -205px;
+  }
+  50% {
+    margin-left:115px;
+    margin-top: -205px;
+  }
+  100% {
+    margin-left: 180px;
+    margin-top: -205px;
+  }
+}
+.contain4{
+  height:250px ;
+  width:250px ;
+  background: transparent;
+  margin-top: -205px;
+  margin-left: -132px;
+  position: absolute;
+  animation-name: cloud2;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+@keyframes cloud2 {
+  0% {
+    margin-left:-132px;
+    margin-top: -205px;
+  }
+  100% {
+    margin-left:-180px;
+    margin-top: -205px;
+  }
+}
+.contain5{
+  height: 700px;
+  width: 700px;
+  background: transparent;
+}
+.box{
+  height: 50px;
+  width: 70px;
+  background: transparent;
+  margin-top: -420px;
+  margin-left: 340px;
+}
+.package{
+  height: 250px;
+  width: 250px;
+  background: transparent;
+  margin-top: -340px;
+  margin-left: 200px;
+  position: absolute;
+}
+.box1{
+  height: 150px;
+  width: 150px;
+  background: transparent;
+  margin-top: -275px;
+  margin-left: 110px;
+}
+.package2{
+  height:400px ;
+  width:400px ;
+  background: #FF5349;
+  position: absolute;
+  border: #ffffff 5px double;
+  margin-top: 80px;
+  margin-left: 745px;
+}
+.contain9{
+  height: 70px;
+  width: 70px;
+  background: transparent;
+  position: absolute;
+  margin-top: 700px;
+  margin-left: -75px;
+  animation-name: bee3;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+@keyframes bee3 {
+  0% {
+    margin-left: -75px;
+    margin-top:  700px;
+  }
+  25% {
+    margin-left: 100px;
+    margin-top: 650px;
+  }
+  50% {
+    margin-left: 500px;
+    margin-top:  700px;
+  }
+  75% {
+    margin-left: 1550px;
+    margin-top:  750px;
+  }
+  100% {
+    margin-left: 1600px;
+    margin-top: 700px;
+  }
+}
+.contain10{
+  height: 70px;
+  width: 70px;
+  background: transparent;
+  position: absolute;
+  margin-top: -110px;
+  margin-left: 10px;
+  animation-name: bee4;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+@keyframes bee4 {
+  0% {
+    margin-left: 110px;
+    margin-top: -100px;
+  }
+  25% {
+    margin-left: 100px;
+    margin-top: -150px;
+  }
+  50% {
+    margin-left: 200px;
+    margin-top: -140px;
+  }
+  75% {
+    margin-left: 300px;
+    margin-top: -130px;
+  }
+  100% {
+    margin-left: 400px;
+    margin-top: -100px;
+  }
+}
+.basket{
+  height: 200px;
+  width: 200px;
+  background: transparent;
+  position: absolute;
+  margin-top: 689px;
+  margin-left: 10px;
+}
+.basket1{
+  height: 200px;
+  width: 200px;
+  background: transparent;
+  position: absolute;
+  margin-top: 689px;
+  margin-left: 160px;
+}
+.basket2{
+  height: 200px;
+  width: 200px;
+  background: transparent;
+  position: absolute;
+  margin-top: 689px;
+  margin-left: 310px;
+}
+.basket3{
+  height: 200px;
+  width: 200px;
+  background: transparent;
+  position: absolute;
+  margin-top: 689px;
+  margin-left: 458px;
+}
+.basket4{
+  height: 200px;
+  width: 200px;
+  background: transparent;
+  position: absolute;
+  margin-top: 689px;
+  margin-left: 607px;
+}
+.basket5{
+  height: 200px;
+  width: 200px;
+  background: transparent;
+  position: absolute;
+  margin-top: 689px;
+  margin-left: 760px;
+}
+.basket6{
+  height: 200px;
+  width: 200px;
+  background: transparent;
+  position: absolute;
+  margin-top: 689px;
+  margin-left: 915px;
+}
+.basket7{
+  height: 200px;
+  width: 200px;
+  background: transparent;
+  position: absolute;
+  margin-top: 689px;
+  margin-left: 1070px;
+}
+.basket8{
+  height: 200px;
+  width: 200px;
+  background: transparent;
+  position: absolute;
+  margin-top: 689px;
+  margin-left: 1220px;
+}
+.basket9{
+  height: 200px;
+  width: 200px;
+  background: transparent;
+  position: absolute;
+  margin-top: 689px;
+  margin-left: 1372px;
+}
+.basket10{
+  height: 200px;
+  width: 200px;
+  background: transparent;
+  position: absolute;
+  margin-top: 689px;
+  margin-left: 1525px;
+}
+.basket11{
+  height: 200px;
+  width: 200px;
+  background: transparent;
+  position: absolute;
+  margin-top: 689px;
+  margin-left: 1676px;
+}
+.basket12{
+  height: 200px;
+  width: 350px;
+  background: transparent;
+  position: absolute;
+  margin-top: 160px;
+  margin-left: 1510px;
+}
+.rec{
+  height: 400px;
+  width: 660px;
+  background: transparent;
+  position: absolute;
+  margin-top: 490px;
+  margin-left: -203px;
+}
+.rec1{
+  height: 400px;
+  width: 660px;
+  background: transparent;
+  position: absolute;
+  margin-top: 490px;
+  margin-left: 80px;
+}
+.rec2{
+  height: 400px;
+  width: 660px;
+  background: transparent;
+  position: absolute;
+  margin-top: 490px;
+  margin-left: 420px;
+}
+.rec3{
+  height: 400px;
+  width: 660px;
+  background: transparent;
+  position: absolute;
+  margin-top: 490px;
+  margin-left: 650px;
+}
+.rec4{
+  height: 400px;
+  width: 660px;
+  background: transparent;
+  position: absolute;
+  margin-top: 490px;
+  margin-left: 995px;
+}
+.rec5{
+  height: 400px;
+  width: 660px;
+  background: transparent;
+  position: absolute;
+  margin-top: 490px;
+  margin-left: 1146px;
+}
+.rec6{
+  height: 400px;
+  width: 660px;
+  background: transparent;
+  position: absolute;
+  margin-top: 490px;
+  margin-left: 1407px;
+}
+.wrap{
+  height: 200px;
+  width: 685px;
+  background: transparent;
+  position: absolute;
+  margin-top: 337px;
+  margin-left: -6px;
+}
+.wrap1{
+  height: 200px;
+  width: 685px;
+  background: transparent;
+  position: absolute;
+  margin-top: 337px;
+  margin-left: 675px;
+}
+.wrap2{
+  height: 200px;
+  width: 685px;
+  background: transparent;
+  position: absolute;
+  margin-top: 337px;
+  margin-left: 1220px;
+}
+.sulod{
+  height:250px ;
+  width:500px ;
+  background: transparent;
+  position: absolute;
+  margin-top: 462px;
+  margin-left: 1400px;
+}
+.contain99{
+  height:70px ;
+  width:70px ;
+  background: transparent;
+  position: absolute;
+  border: #000000 solid 5px;
+  transform: rotate(60 90);
+  margin-top: 200px;
+  margin-left: 1500px;
+}
+.btn {
+  background-color: orangered ;
+  display: inline-block;
+  margin-left: 800px;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 1rem 2rem;
+  border: #ffffff 1px solid;
+  margin-top: 420px;
+  opacity: 0;
+  animation-name: btn;
+  animation-duration: 3s;
+  animation-delay: 3s;
+  animation-fill-mode: forwards;
+  transition-property: transform;
+  transition-duration: 1s
+}
+@keyframes btn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.btn:hover {
+  transform: scale(1.5);
+}
+.btn1 {
+  background-color: orangered ;
+  display: inline-block;
+  margin-left: 500px;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 1rem 2rem;
+  border: #ffffff 1px solid;
+  margin-top: 420px;
+}

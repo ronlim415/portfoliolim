@@ -1,0 +1,106 @@
+.container4{
+    border: 10px solid #333333;
+    margin-left: 330px;
+    margin-top: 50px;
+    position: absolute;
+    height:550px;
+    width:550px;
+    background:#000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .bc{
+    position:absolute;
+    margin-top: 0px;
+    margin-left: 60px;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    background: #b90505b9;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    transform:scale(0.9);
+  }
+  .c2{
+    position:absolute;
+    margin-top: 0px;
+    margin-left: 60px;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    background: #bbb;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    transform: scale(0.8);
+  }
+  .c3{
+    position:absolute;
+    margin-top: 0px;
+    margin-left: 60px;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    background: rgb(151, 6, 6);
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    transform: scale(0.6);
+  }
+  .c4{
+    position:absolute;
+    margin-top: 0px;
+    margin-left: 60px;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    background: #02045e;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    transform: scale(0.5);  
+  }
+  .star{
+    margin: 50px 0;
+        position: absolute;
+        display: block;
+        color: white;
+        width: 0px;
+        height: 0px;
+        margin-top: 50px;
+        margin-left: 75px;
+        border-right: 100px solid transparent;
+        border-bottom: 70px solid white;
+        border-left: 100px solid transparent;
+        transform: rotate(35deg);
+  }
+  .star::before{
+    border-bottom: 80px solid white;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    position: absolute;
+    height: 0;
+    width: 0;
+    margin-top: -45px;
+    margin-left: -65px;
+    display: block;
+    content: '';
+    transform: rotate(-35deg);
+  }
+  .star::after{
+    position: absolute;
+    display: block;
+    color: white;
+    margin-top: 3px;
+    margin-left: -105px;
+    width: 0px;
+    height: 0px;
+    border-right: 100px solid transparent;
+    border-bottom: 70px solid white;
+    border-left: 100px solid transparent;
+    transform: rotate(-70deg);
+    content: '';
+  }
+  
